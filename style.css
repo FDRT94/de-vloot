@@ -9,7 +9,7 @@ body{
    font-family: sans-serif;
    font-size: 125%;
 }
-div.top-menu {
+header {
     background:white;
     background-image: url(css/grfx/header.jpg);
     background-repeat:no-repeat;
@@ -105,10 +105,10 @@ padding-left: -5px;
 }
 img.bottomleft{
 float: left;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-top: -5px;
-padding-left: -5px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-top: 15px;
+padding-left: 15px;
 
 
 }
