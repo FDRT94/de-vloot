@@ -2,12 +2,17 @@
 padding:0;
 margin:0;
 }
-
 body{
    background-image: url(css/grfx/bg.png);
    background-repeat: repeat-x;
    font-family: sans-serif;
    font-size: 125%;
+}
+
+h2 {
+padding-top: 20px;
+padding-bottom: 20px;
+
 }
 header {
     background:white;
@@ -21,28 +26,37 @@ header {
     text-align: left; 
     height: 268px;
     background-size: cover;
+    position:relative;
+
 }
-div a {
-	 float: left;
-	text-decoration: none;
+
+
+nav ul li {
+	display: inline-block;
+
+} 
+
+nav {
+	position: absolute;
+	bottom: 20px;
+
+}
+nav a {
+	list-style-type:none;
+	text-decoration:none;
 	font-size: 20px;
 	padding: 10px;
-	display:inline-block;
-	border-top: 0px solid black;
-	border-right: 0px solid black;
-	border-bottom: 0px solid black;
-	border-left:0px solid black;
-	margin-top: 150px;
 	color:white;
 }
-a:links{
+
+nav a:links {
 	color: white;
 	background-color: transparent;
-}
-a:hover {
-color: blue;
-background-color: transparent;
+	}
 
+nav a:hover {
+color: #2196f3;
+background-color: red;
 }
 
 img.topLeft{
@@ -50,7 +64,7 @@ float: left;
 padding-right: 10px;
 }
    
-div.tekst{
+main {
 	width: 800px;
 	margin: 0 auto;
 	background-color: white;
@@ -74,44 +88,40 @@ padding-bottom: 10px;
 padding-top: -5px;
 padding-left: -5px;
 
-
 }
+
 img.topmiddle{
 float: left;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-top: -5px;
 padding-left: -5px;
-
 }
 
 img.bottomright{
 float: right;
 padding-right: 10px;
 padding-bottom: 10px;
-padding-top: -5px;
-padding-left: -5px;
-
-
+padding-top: 10px;
+padding-left: 10px;
 }
+
 img.bottommiddle{
 float: left;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-top: -5px;
 padding-left: -5px;
-
-
 }
+
 img.bottomleft{
 float: left;
 padding-right: 20px;
 padding-bottom: 20px;
-padding-top: 15px;
-padding-left: 15px;
-
-
+padding-top: -5px;
+padding-left: -5px;
 }
+
 img.topright{
 float: right;
 padding-right: 10px;
